@@ -11,6 +11,8 @@ or checkout our [overview article](https://arxiv.org/abs/2011.03057).
 
 Feel free to contact us on github or via [email](mailto:jakob.kottmann@utoronto.ca) if you have any questions/remarks/suggestions/troubles!
 
+Note that some tutorials currently require you to check out the `devel` branch of tequila's main repository, since the features are not merged into the main branch yet. Those tutorials currently are: PyZXwithTequila.ipynb, Tensorflow_Interface.ipynb OpenQASMConversions.ipynb.
+
 
 # Install tequila
 Easiest is to pip install from github:  
