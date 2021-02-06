@@ -27,12 +27,15 @@ See the [main](https://github.com/aspuru-guzik-group/tequila) repository for inf
 # Research projects using Tequila
 J.S. Kottmann, A. Anand, A. Aspuru-Guzik.  
 A Feasible Approach for Automatically Differentiable Unitary Coupled-Cluster on Quantum Computers.  
-[arxiv.org/abs/2011.05938](https://arxiv.org/abs/2011.05938)  
-Techniques are implemented in the chemistry modules of tequila. See the [Chemistry](Chemistry.ipynb) tutorial. 
+Chem. Sci., 2021 [doi.org/10.1039/D0SC06627C](https://doi.org/10.1039/D0SC06627C)
+Arxiv: [arxiv.org/abs/2011.05938](https://arxiv.org/abs/2011.05938)  
+Techniques are implemented in the chemistry modules of tequila. See the [Chemistry](Chemistry.ipynb) tutorial.   
+One of the applications can be found in the generalized adaptive solver: See the [AdaptiveSolver](AdaptiveSolver.ipynb) tutorial.
 
 J.S. Kottmann, P. Schleich, T. Tamayo-Mendoza, A. Aspuru-Guzik.  
-A basis-set-free approach for VQE employing pair-natural orbitals.   
-[arxiv.org/abs/2008.02819](https://arxiv.org/abs/2008.02819)  
+A basis-set-free approach for VQE employing pair-natural orbitals.  
+J. Phys. Chem. Lett. 2021, [doi.org/10.1021/acs.jpclett.0c03410](https://doi.org/10.1021/acs.jpclett.0c03410)  
+Arxiv: [arxiv.org/abs/2008.02819](https://arxiv.org/abs/2008.02819)  
 [small tutorial using the hydrogen molecule](ChemistryBasisSetFreeVQE.ipynb)  
 [tutorial on the madness interface](ChemistryMadnessInterface.ipynb)
 
