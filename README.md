@@ -25,24 +25,25 @@ pip install git+https://github.com/aspuru-guzik-group/tequila.git
 See the [main](https://github.com/aspuru-guzik-group/tequila) repository for information.
 
 # Research projects using Tequila
+# Research projects using Tequila
 J.S. Kottmann, A. Anand, A. Aspuru-Guzik.  
 A Feasible Approach for Automatically Differentiable Unitary Coupled-Cluster on Quantum Computers.  
-Chem. Sci., 2021 [doi.org/10.1039/D0SC06627C](https://doi.org/10.1039/D0SC06627C)
-Arxiv: [arxiv.org/abs/2011.05938](https://arxiv.org/abs/2011.05938)  
-Techniques are implemented in the chemistry modules of tequila. See the [Chemistry](Chemistry.ipynb) tutorial.   
-One of the applications can be found in the generalized adaptive solver: See the [AdaptiveSolver](AdaptiveSolver.ipynb) tutorial.
+Chemical Science, 2021, [doi.org/10.1039/D0SC06627C](https://doi.org/10.1039/D0SC06627C).  
+[arxiv.org/abs/2011.05938](https://arxiv.org/abs/2011.05938)  
+General techniques are implemented in the chemistry modules of tequila.  
+See the [tutorials](https://github.com/aspuru-guzik-group/tequila/tree/master/tutorials) for examples.  
 
 J.S. Kottmann, P. Schleich, T. Tamayo-Mendoza, A. Aspuru-Guzik.  
-A basis-set-free approach for VQE employing pair-natural orbitals.  
-J. Phys. Chem. Lett. 2021, [doi.org/10.1021/acs.jpclett.0c03410](https://doi.org/10.1021/acs.jpclett.0c03410)  
-Arxiv: [arxiv.org/abs/2008.02819](https://arxiv.org/abs/2008.02819)  
-[small tutorial using the hydrogen molecule](ChemistryBasisSetFreeVQE.ipynb)  
-[tutorial on the madness interface](ChemistryMadnessInterface.ipynb)
+Reducing Qubit Requirements while Maintaining Numerical Precision for the Variational Quantum Eigensolver: A Basis-Set-Free Approach.  
+J.Phys.Chem.Lett., 2021, [doi.org/10.1021/acs.jpclett.0c03410](https://doi.org/10.1021/acs.jpclett.0c03410).  
+[arxiv.org/abs/2008.02819](https://arxiv.org/abs/2008.02819)  
+[example code](https://github.com/aspuru-guzik-group/tequila/blob/master/tutorials/ChemistryBasisSetFreeVQE.ipynb)  
+[tutorial on the madness interface](https://github.com/aspuru-guzik-group/tequila/blob/master/tutorials/ChemistryMadnessInterface.ipynb)  
 
 A. Cervera-Lierta, J.S. Kottmann, A. Aspuru-Guzik.  
 The Meta-Variational Quantum Eigensolver.  
 [arxiv.org/abs/2009.13545](https://arxiv.org/abs/2009.13545)  
-[example code](https://github.com/aspuru-guzik-group/Meta-VQE)
+[example code](https://github.com/aspuru-guzik-group/Meta-VQE)    
 
 J.S. Kottmann, M. Krenn, T.H. Kyaw, S. Alperin-Lea, A. Aspuru-Guzik.  
 Quantum Computer-Aided design of Quantum Optics Hardware.  
@@ -51,10 +52,15 @@ Quantum Computer-Aided design of Quantum Optics Hardware.
 
 A. Anand, M. Degroote, A. Aspuru-Guzik.  
 Natural Evolutionary Strategies for Variational Quantum Computation.  
-[arxiv.org/abs/2012.00101](https://arxiv.org/abs/2012.00101)
+[arxiv.org/abs/2012.00101](https://arxiv.org/abs/2012.00101)  
 
+J. S. Kottmann, A. Aspuru-Guzik,  
+Optimized Low-Depth Quantum Circuits for Molecular Electronic Structure using a Separable Pair Approximation,  
+[arxiv.org/abs/2105.03836](https://arxiv.org/abs/2105.03836)  
+[example code][(https://github.com/aspuru-guzik-group/tequila/blob/master/tutorials/ChemistrySeparablePairAnsatz.ipynb] 
+implementation currently only on [devel](https://github.com/aspuru-guzik-group/tequila/tree/devel) branch.  
 
-Let us know, if you want your research project to be included in this list!
+Let us know, if you want your research project and/or tutorial to be included in this list!
 
 # How to add your own tutorial/demonstration  
 If you want to make your own tutorial or write a small notebook highlighting some of your research with `tequila`, here is how it works:  
