@@ -109,18 +109,18 @@
 
      Iter   Root       Total Energy       Delta E      C RMS
 
-   @CI  0:     0   -227.986661558757   -6.3833E+00   4.4354E-13  
+   @CI  0:     0   -227.986661558756   -6.3833E+00   2.9201E-13  
     Warning: Norm of correction (root 0) is < 1.0E-13
-   @CI  1:     0   -227.986661558757   0.0000E+00   1.3985E-13 c
+   @CI  1:     0   -227.986661558756   -8.8818E-16   1.3250E-13 c
 
    ==> Energetics <==
 
-    SCF energy =         -227.888607971014267
-    Total CI energy =    -227.986661558756566
+    SCF energy =         -227.888607971420299
+    Total CI energy =    -227.986661558756253
 
    ==> DETCI root 0 information <==
 
-    DETCI Root 0 energy =  -227.986661558756566
+    DETCI Root 0 energy =  -227.986661558756253
 
    The 20 most important determinants:
 

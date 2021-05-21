@@ -1,14 +1,14 @@
 
 *** tstart() called on alandro
-*** at Thu Jan  7 18:53:23 2021
+*** at Fri May 21 16:51:03 2021
 
    => Loading Basis Set <=
 
     Name: STO-3G
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1-6  entry C          line    61 file /home/jsk/anaconda3/envs/tequila-3.6/share/psi4/basis/sto-3g.gbs 
-    atoms 7-12 entry H          line    19 file /home/jsk/anaconda3/envs/tequila-3.6/share/psi4/basis/sto-3g.gbs 
+    atoms 1-6  entry C          line    61 file /home/jsk/anaconda3/envs/tequila-3.7/share/psi4/basis/sto-3g.gbs 
+    atoms 7-12 entry H          line    19 file /home/jsk/anaconda3/envs/tequila-3.7/share/psi4/basis/sto-3g.gbs 
 
 
          ---------------------------------------------------------
@@ -79,8 +79,8 @@
     Name: (STO-3G AUX)
     Role: JKFIT
     Keyword: DF_BASIS_SCF
-    atoms 1-6  entry C          line   203 file /home/jsk/anaconda3/envs/tequila-3.6/share/psi4/basis/def2-svp-jkfit.gbs 
-    atoms 7-12 entry H          line    23 file /home/jsk/anaconda3/envs/tequila-3.6/share/psi4/basis/def2-svp-jkfit.gbs 
+    atoms 1-6  entry C          line   203 file /home/jsk/anaconda3/envs/tequila-3.7/share/psi4/basis/def2-svp-jkfit.gbs 
+    atoms 7-12 entry H          line    23 file /home/jsk/anaconda3/envs/tequila-3.7/share/psi4/basis/def2-svp-jkfit.gbs 
 
   ==> Pre-Iterations <==
 
@@ -134,12 +134,12 @@
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RHF iter SAD:  -223.57592553097345   -2.23576e+02   0.00000e+00 
-   @DF-RHF iter   1:  -227.88106522278480   -4.30514e+00   6.30650e-03 DIIS
-   @DF-RHF iter   2:  -227.88828813856185   -7.22292e-03   1.20045e-03 DIIS
-   @DF-RHF iter   3:  -227.88860326477186   -3.15126e-04   1.46980e-04 DIIS
-   @DF-RHF iter   4:  -227.88860792965494   -4.66488e-06   1.37987e-05 DIIS
-   @DF-RHF iter   5:  -227.88860797101427   -4.13593e-08   7.88137e-07 DIIS
+   @DF-RHF iter SAD:  -223.57592553138801   -2.23576e+02   0.00000e+00 
+   @DF-RHF iter   1:  -227.88106522319094   -4.30514e+00   6.30650e-03 DIIS
+   @DF-RHF iter   2:  -227.88828813896788   -7.22292e-03   1.20045e-03 DIIS
+   @DF-RHF iter   3:  -227.88860326517786   -3.15126e-04   1.46980e-04 DIIS
+   @DF-RHF iter   4:  -227.88860793006094   -4.66488e-06   1.37987e-05 DIIS
+   @DF-RHF iter   5:  -227.88860797142030   -4.13594e-08   7.88137e-07 DIIS
   Energy and wave function converged.
 
 
@@ -170,14 +170,14 @@
              Ag   B1g   B2g   B3g    Au   B1u   B2u   B3u 
     DOCC [     6,    3,    1,    1,    0,    1,    5,    4 ]
 
-  @DF-RHF Final Energy:  -227.88860797101427
+  @DF-RHF Final Energy:  -227.88860797142030
 
    => Energetics <=
 
     Nuclear Repulsion Energy =            201.7113299104782413
-    One-Electron Energy =                -708.4083339238063672
-    Two-Electron Energy =                 278.8083960423138592
-    Total Energy =                       -227.8886079710142667
+    One-Electron Energy =                -708.4083339239531369
+    Two-Electron Energy =                 278.8083960420545964
+    Total Energy =                       -227.8886079714202992
 
 Computation Completed
 
@@ -199,12 +199,12 @@ Properties computed using the SCF density matrix
      X:    -0.0000      Y:    -0.0000      Z:     0.0000     Total:     0.0000
 
 
-*** tstop() called on alandro at Thu Jan  7 18:53:24 2021
+*** tstop() called on alandro at Fri May 21 16:51:04 2021
 Module time:
-	user time   =       1.02 seconds =       0.02 minutes
+	user time   =       1.01 seconds =       0.02 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          1 seconds =       0.02 minutes
 Total time:
-	user time   =      26.29 seconds =       0.44 minutes
-	system time =       0.60 seconds =       0.01 minutes
-	total time  =        811 seconds =      13.52 minutes
+	user time   =      15.75 seconds =       0.26 minutes
+	system time =       0.33 seconds =       0.01 minutes
+	total time  =        160 seconds =       2.67 minutes

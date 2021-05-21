@@ -95,41 +95,41 @@
 
      Iter   Root       Total Energy       Delta E      C RMS
 
-   @CI  0:     0   -227.997111948996   -6.3938E+00   2.9921E-13  
+   @CI  0:     0   -227.997111948996   -6.3938E+00   2.8759E-13  
     Warning: Norm of correction (root 0) is < 1.0E-13
-   @CI  1:     0   -227.997111948996   0.0000E+00   1.1897E-13 c
+   @CI  1:     0   -227.997111948996   0.0000E+00   2.9360E-13 c
 
    ==> Energetics <==
 
-    SCF energy =         -227.888607971014267
-    Total CI energy =    -227.997111948996121
+    SCF energy =         -227.888607971420299
+    Total CI energy =    -227.997111948995894
 
    ==> FCI root 0 information <==
 
-    FCI Root 0 energy =  -227.997111948996121
+    FCI Root 0 energy =  -227.997111948995894
 
    The 20 most important determinants:
 
-    *   1   -0.912523  (    4,    4)  1B2gX 1B3gX 1B1uX 
-    *   2    0.177001  (   15,   15)  1B3gX 1B1uX 1AuX 
-    *   3    0.176966  (   17,   17)  1B2gX 1B1uX 2B1uX 
-    *   4    0.118060  (   10,   11)  1B2gA 1B3gB 1B1uX 1AuA 2B1uB 
-    *   5    0.118060  (   11,   10)  1B2gB 1B3gA 1B1uX 1AuB 2B1uA 
-    *   6    0.083989  (    4,    9)  1B2gA 1B3gA 1B1uX 1AuB 2B1uB 
-    *   7    0.083989  (    9,    4)  1B2gB 1B3gB 1B1uX 1AuA 2B1uA 
-    *   8   -0.079549  (    0,    1)  1B2gB 1B3gX 1B1uA 2B3gA 1AuB 
-    *   9   -0.079549  (    1,    0)  1B2gA 1B3gX 1B1uB 2B3gB 1AuA 
-    *  10   -0.079545  (    5,    7)  1B2gX 1B3gB 1B1uA 2B3gA 2B1uB 
-    *  11   -0.079545  (    7,    5)  1B2gX 1B3gA 1B1uB 2B3gB 2B1uA 
-    *  12   -0.057216  (   14,   17)  1B2gX 1B3gA 1B1uB 2B3gA 2B1uB 
-    *  13   -0.057216  (   17,   14)  1B2gX 1B3gB 1B1uA 2B3gB 2B1uA 
-    *  14   -0.057216  (   14,   15)  1B2gA 1B3gX 1B1uB 2B3gA 1AuB 
-    *  15   -0.057216  (   15,   14)  1B2gB 1B3gX 1B1uA 2B3gB 1AuA 
-    *  16    0.049742  (   14,   14)  1B2gX 1B3gX 2B3gX 
-    *  17    0.044961  (    7,    7)  1B2gX 1B3gX 2B1uX 
-    *  18    0.044956  (    1,    1)  1B2gX 1B3gX 1AuX 
-    *  19   -0.042285  (    9,    9)  1B1uX 1AuX 2B1uX 
-    *  20    0.040461  (    5,    5)  1B2gX 1B1uX 2B3gX 
+    *   1    0.912523  (    4,    4)  1B2gX 1B3gX 1B1uX 
+    *   2   -0.177001  (   15,   15)  1B3gX 1B1uX 1AuX 
+    *   3   -0.176966  (   17,   17)  1B2gX 1B1uX 2B1uX 
+    *   4   -0.118060  (   10,   11)  1B2gA 1B3gB 1B1uX 1AuA 2B1uB 
+    *   5   -0.118060  (   11,   10)  1B2gB 1B3gA 1B1uX 1AuB 2B1uA 
+    *   6   -0.083989  (    4,    9)  1B2gA 1B3gA 1B1uX 1AuB 2B1uB 
+    *   7   -0.083989  (    9,    4)  1B2gB 1B3gB 1B1uX 1AuA 2B1uA 
+    *   8    0.079549  (    0,    1)  1B2gB 1B3gX 1B1uA 2B3gA 1AuB 
+    *   9    0.079549  (    1,    0)  1B2gA 1B3gX 1B1uB 2B3gB 1AuA 
+    *  10    0.079545  (    5,    7)  1B2gX 1B3gB 1B1uA 2B3gA 2B1uB 
+    *  11    0.079545  (    7,    5)  1B2gX 1B3gA 1B1uB 2B3gB 2B1uA 
+    *  12    0.057216  (   14,   17)  1B2gX 1B3gA 1B1uB 2B3gA 2B1uB 
+    *  13    0.057216  (   17,   14)  1B2gX 1B3gB 1B1uA 2B3gB 2B1uA 
+    *  14    0.057216  (   14,   15)  1B2gA 1B3gX 1B1uB 2B3gA 1AuB 
+    *  15    0.057216  (   15,   14)  1B2gB 1B3gX 1B1uA 2B3gB 1AuA 
+    *  16   -0.049742  (   14,   14)  1B2gX 1B3gX 2B3gX 
+    *  17   -0.044961  (    7,    7)  1B2gX 1B3gX 2B1uX 
+    *  18   -0.044956  (    1,    1)  1B2gX 1B3gX 1AuX 
+    *  19    0.042285  (    9,    9)  1B1uX 1AuX 2B1uX 
+    *  20   -0.040461  (    5,    5)  1B2gX 1B1uX 2B3gX 
 
 		 "A good bug is a dead bug" 
 
