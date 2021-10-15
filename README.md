@@ -30,7 +30,7 @@ A Feasible Approach for Automatically Differentiable Unitary Coupled-Cluster on 
 Chemical Science, 2021, [doi.org/10.1039/D0SC06627C](https://doi.org/10.1039/D0SC06627C).  
 [arxiv.org/abs/2011.05938](https://arxiv.org/abs/2011.05938)  
 General techniques are implemented in the chemistry modules of tequila.  
-See the [tutorials](https://github.com/aspuru-guzik-group/tequila-tutorials) for examples.  
+examples: [Chemistry](Chemistry.ipynb) and [AdaptiveSolver](AdaptiveSolver.ipynb)  
 
 J.S. Kottmann, P. Schleich, T. Tamayo-Mendoza, A. Aspuru-Guzik.  
 Reducing Qubit Requirements while Maintaining Numerical Precision for the Variational Quantum Eigensolver: A Basis-Set-Free Approach.  
@@ -53,11 +53,16 @@ A. Anand, M. Degroote, A. Aspuru-Guzik.
 Natural Evolutionary Strategies for Variational Quantum Computation.  
 [arxiv.org/abs/2012.00101](https://arxiv.org/abs/2012.00101)  
 
-J. S. Kottmann, A. Aspuru-Guzik,  
+J.S. Kottmann, A. Aspuru-Guzik,  
 Optimized Low-Depth Quantum Circuits for Molecular Electronic Structure using a Separable Pair Approximation,  
 [arxiv.org/abs/2105.03836](https://arxiv.org/abs/2105.03836)  
 [example code](https://github.com/aspuru-guzik-group/tequila-tutorials/blob/main/ChemistrySeparablePairAnsatz.ipynb)    
 currently needs the [devel](https://github.com/aspuru-guzik-group/tequila/tree/devel) branch of tequila  
+
+P. Schleich, J.S. Kottmann, A. Aspuru-Guzik,  
+Improving the Accuracy of the Variational Quantum Eigensolver for Molecular Systems by the Explicitly-Correlated Perturbative [2]-R12-Correction  
+[arxiv.org/abs/2110.06812](https://arxiv.org/abs/2110.06812)  
+tutorial: [ChemistryF12Correction](ChemistryF12Correction.ipynb)
 
 Let us know, if you want your research project and/or tutorial to be included in this list!
 
