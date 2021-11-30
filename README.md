@@ -57,7 +57,6 @@ J.S. Kottmann, A. Aspuru-Guzik,
 Optimized Low-Depth Quantum Circuits for Molecular Electronic Structure using a Separable Pair Approximation,  
 [arxiv.org/abs/2105.03836](https://arxiv.org/abs/2105.03836)  
 [example code](https://github.com/aspuru-guzik-group/tequila-tutorials/blob/main/ChemistrySeparablePairAnsatz.ipynb)    
-currently needs the [devel](https://github.com/aspuru-guzik-group/tequila/tree/devel) branch of tequila  
 
 P. Schleich, J.S. Kottmann, A. Aspuru-Guzik,  
 Improving the Accuracy of the Variational Quantum Eigensolver for Molecular Systems by the Explicitly-Correlated Perturbative [2]-R12-Correction  
