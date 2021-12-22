@@ -24,7 +24,7 @@ pip install git+https://github.com/aspuru-guzik-group/tequila.git
 
 See the [main](https://github.com/aspuru-guzik-group/tequila) repository for information.
 
-# Research projects using Tequila
+# Research projects with example code:
 J.S. Kottmann, A. Anand, A. Aspuru-Guzik.  
 A Feasible Approach for Automatically Differentiable Unitary Coupled-Cluster on Quantum Computers.  
 Chemical Science, 2021, [doi.org/10.1039/D0SC06627C](https://doi.org/10.1039/D0SC06627C).  
@@ -61,12 +61,13 @@ Optimized Low-Depth Quantum Circuits for Molecular Electronic Structure using a 
 P. Schleich, J.S. Kottmann, A. Aspuru-Guzik,  
 Improving the Accuracy of the Variational Quantum Eigensolver for Molecular Systems by the Explicitly-Correlated Perturbative [2]-R12-Correction  
 [arxiv.org/abs/2110.06812](https://arxiv.org/abs/2110.06812)  
-tutorial: [ChemistryF12Correction](ChemistryF12Correction.ipynb)  
+[tutorial](https://github.com/aspuru-guzik-group/tequila-tutorials/blob/main/ChemistryF12Correction.ipynb)  
 
 M. Weber, A. Anand, A. Cervera-Lierta, J. S. Kottmann, T.-H. Kyaw, B. Li, A. Aspuru-Guzik, C. Zhang and Z. Zhao,  
 Toward Reliability in the NISQ Era: Robust Interval Guarantee for Quantum Measurements on Approximate States  
 [arxiv.org/abs/2110.09793](https://arxiv.org/abs/2110.09793)  
 [tutorial](https://github.com/aspuru-guzik-group/tequila-tutorials/blob/main/robustness_tutorial.ipynb)  
+
 
 Let us know, if you want your research project and/or tutorial to be included in this list!
 
