@@ -2,17 +2,18 @@
 This repository functions as a tutorial collection for tequila.  
 Feel free to contribute your own! (see below)  
 
-It's recommended to start with [BasicUsage](BasicUsage.ipynb) and take a look at [FAQ](FAQ.ipynb).
+It's recommended to start with [BasicUsage](BasicUsage.ipynb) and take a look at [FAQ](FAQ.ipynb).  
 
+The other tutorials are sorted into different directories depending on what they represent:  
 
-[You can also get a first overview from this presentation](/docs/tequila.pdf)  
-or the [video recording](https://www.youtube.com/watch?v=hUdf0P2fW2E) of it  
-or checkout our [overview article](https://arxiv.org/abs/2011.03057).  
-
-Feel free to contact us on github or via [email](mailto:jakob.kottmann@utoronto.ca) if you have any questions/remarks/suggestions/troubles!
-
-Note that some tutorials currently require you to check out the `devel` branch of tequila's main repository, since the features are not merged into the main branch yet. Those tutorials currently are: PyZXwithTequila.ipynb, Tensorflow_Interface.ipynb OpenQASMConversions.ipynb AdaptiveSolver.ipynb.
-
+1. Main Directory: Basic Usage and Data Structures
+- [BasicUsage](BasicUsage.ipynb): How to use tequila (QCircuits, Hamiltonian, Objective, grad)
+- [QTensor](QTensor.ipynb): Tutorial on the QTensor class (works like numpy.ndarray just with tequila Objectives)
+- [CircuitCompiler](CircuitCompiler.ipynb): Brief Overview on how gate compilation works
+- [Optimizers](Optimizers.ipynb): Tutorial on supported optimizers (in-build, scipy, gpyopy)
+- [OpenQASMConversion](OpenQasmConversion.ipynb): Interface with OpenQASM 2
+- [NoisySimulation](NoisySimulation): Tutorial on how to add noise instruction to simulations
+- [FAQ](FAQ.ipynb): Some frequently asked questions (cross-compiling, ibmq, ...)
 
 # Install tequila
 Easiest is to pip install from github:  
