@@ -2,6 +2,10 @@
 This repository functions as a tutorial collection for tequila.  
 Feel free to contribute your own! (see below)  
 
+Check out this small overview to get a glimpse on [what tequila is,](https://kottmanj.github.io/tequila-in-a-nutshell/#/)  
+or, get an overview through different slides and recordings of talks on different level of detail: See [here](https://kottmanj.github.io/talks_and_material/).  
+Find the original tequila codebase [here](https://github.com/tequilahub/tequila).  
+ 
 It's recommended to start with [BasicUsage](BasicUsage.ipynb) and take a look at [FAQ](FAQ.ipynb).  
 
 The other tutorials are sorted into different directories depending on what they represent:  
