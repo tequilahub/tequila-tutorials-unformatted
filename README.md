@@ -15,6 +15,11 @@ The other tutorials are sorted into different directories depending on what they
 - [NoisySimulation](NoisySimulation): Tutorial on how to add noise instruction to simulations
 - [FAQ](FAQ.ipynb): Some frequently asked questions (cross-compiling, ibmq, ...)
 
+2. [Chemistry](chemistry) Directory: Tutorials on the supported chemistry modules (pyscf, psi4, madness) and applications
+3. [Research](research) Directory: Tutorial collection on published research projects with tequila
+4. [Other](other) Directory: Other features, applications, examples
+
+
 # Install tequila
 Easiest is to pip install from github:  
 ```bash
