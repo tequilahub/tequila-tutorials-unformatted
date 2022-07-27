@@ -11,4 +11,5 @@
 
 ## Further Research Projects with chemistry application:
 - [Generalized-ADAPT](../research/generalized-adapt/): Enable excited state calculations and gate insertions on arbitrary positions. [arxiv:2011.05938](https://arxiv.org/abs/2011.05938)
+- [Meta-VQE](https://github.com/tequilahub/Meta-VQE)
 
