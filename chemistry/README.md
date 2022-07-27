@@ -7,6 +7,7 @@
 - [F12Correction](F12Correction.ipynb): tutorial on supported functionality in explicit correlation (needs special dependencies)
 - [SeparablePairAnsatz](SeparablePairAnsatz.ipynb): tutorial on the separable pair ansatz (SPA) in combination with basis-set-free orbitals (includes a small dataset of precomputed molecles)
 - [ExcitedStateVQE](ExcitedStateVQE.ipynb): example on an excited state calculation
+- [GraphBasedCircuitDesign)(GraphBasedCircuitDesign.ipynb): Design quantum circuits from chemical graphs
 
 ## Further Research Projects with chemistry application:
 - [Generalized-ADAPT](../research/generalized-adapt/): Enable excited state calculations and gate insertions on arbitrary positions
