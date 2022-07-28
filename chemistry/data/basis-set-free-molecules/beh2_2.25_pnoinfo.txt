@@ -1,0 +1,4 @@
+MADNESS MRA-PNO INFORMATION
+pairinfo=0,1,2,1.1,2.2
+nuclear_repulsion=1.99911
+occinfo=-4.84084,-0.38021,-0.38021,0.0312853,0.0312853
