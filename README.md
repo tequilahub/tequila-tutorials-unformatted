@@ -13,6 +13,7 @@ The other tutorials are sorted into different directories depending on what they
 1. Main Directory: Basic Usage and Data Structures
 - [BasicUsage](BasicUsage.ipynb): How to use tequila (QCircuits, Hamiltonian, Objective, grad)
 - [QTensor](QTensor.ipynb): Tutorial on the QTensor class (works like numpy.ndarray just with tequila Objectives)
+- [BraKet](BraketTutorial.ipynb): Tutorial on the BraKet class (automatically decomposes <X|H|y> into a tq.Objective)  
 - [CircuitCompiler](CircuitCompiler.ipynb): Brief Overview on how gate compilation works
 - [Optimizers](Optimizers.ipynb): Tutorial on supported optimizers (in-build, scipy, gpyopy)
 - [OpenQASMConversion](OpenQasmConversion.ipynb): Interface with OpenQASM 2
