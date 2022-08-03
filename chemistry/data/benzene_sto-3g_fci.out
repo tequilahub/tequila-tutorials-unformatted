@@ -1,0 +1,142 @@
+
+Scratch directory: /tmp/
+ MINTS: Wrapper to libmints.
+   by Justin Turney
+
+   Calculation information:
+      Number of threads:                 1
+      Number of atoms:                  12
+      Number of AO shells:              24
+      Number of SO shells:               8
+      Number of primitives:             72
+      Number of atomic orbitals:        36
+      Number of basis functions:        36
+
+      Number of irreps:                  8
+      Integral cutoff                 1.00e-12
+      Number of functions per irrep: [   9    6    1    2    1    2    9    6 ]
+
+ OEINTS: Overlap, kinetic, potential, dipole, and quadrupole integrals
+         stored in file 35.
+
+      Computing two-electron integrals...done
+      Computed 34175 non-zero two-electron integrals.
+        Stored in file 33.
+
+
+         ---------------------------------------------------------
+                          Configuration Interaction
+                            (a 'D E T C I' module)
+
+                 C. David Sherrill, Daniel G. A. Smith, and
+                              Matt L. Leininger
+         ---------------------------------------------------------
+
+
+   ==> Parameters <==
+
+    EX LEVEL       =        6      H0 BLOCKSIZE  =     1000
+    VAL EX LEVEL   =        0      H0 GUESS SIZE =     1000
+    H0COUPLINGSIZE =        0      H0 COUPLING   =       NO
+    MAXITER        =       24      NUM PRINT     =       20
+    NUM ROOTS      =        1      ICORE         =        1
+    PRINT LVL      =        1      FCI           =      YES
+    R CONV         = 1.00e-04      MIXED         =      YES
+    E CONV         = 1.00e-06      MIXED4        =      YES
+    R4S            =       NO      REPL OTF      =       NO
+    DIAG METHOD    =      SEM      FOLLOW ROOT   =        0
+    PRECONDITIONER = DAVIDSON      UPDATE        = DAVIDSON
+    S              =   0.0000      Ms0           =      YES
+    GUESS VECTOR   =  H0BLOCK      OPENTYPE      =     NONE
+    COLLAPSE SIZE  =        1      HD AVG        = EVANGELISTI
+    MAX NUM VECS   =       25      REF SYM       =     AUTO
+    IOPEN        =       NO
+
+    EX ALLOW       =  1  1  1  1  1  1 
+    STATE AVERAGE  =  0(1.00) 
+
+   ==> CI Orbital and Space information <==
+
+   ------------------------------------------------------------------------------
+               Space    Total    Ag   B1g   B2g   B3g    Au   B1u   B2u   B3u
+   ------------------------------------------------------------------------------
+                 Nso       36     9     6     1     2     1     2     9     6
+                 Nmo       36     9     6     1     2     1     2     9     6
+               Ndocc       21     6     3     1     1     0     1     5     4
+               Nsocc        0     0     0     0     0     0     0     0     0
+   ------------------------------------------------------------------------------
+                                   CI Spaces
+   ------------------------------------------------------------------------------
+        Dropped DOCC       18     6     3     0     0     0     0     5     4
+              Active        6     0     0     1     2     1     2     0     0
+        Dropped UOCC       12     3     3     0     0     0     0     4     2
+   ------------------------------------------------------------------------------
+
+   ==> Setting up CI strings <==
+
+    There are 20 alpha and 20 beta strings
+    The CI space requires 104 (1.04E+02) determinants and 4 blocks
+
+   ==> Transforming CI integrals <==
+
+	Presorting SO-basis two-electron integrals.
+	Sorting File: SO Ints (nn|nn) nbuckets = 1
+	Constructing frozen core operators
+	Starting first half-transformation.
+	Sorting half-transformed integrals.
+	First half integral transformation complete.
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+
+   ==> Starting CI iterations <==
+
+    H0 Block Eigenvalue = -227.99711195
+
+    Simultaneous Expansion Method (Block Davidson Method)
+    Using 1 initial trial vectors
+
+     Iter   Root       Total Energy       Delta E      C RMS
+
+   @CI  0:     0   -227.997111948996   -6.3938E+00   2.7883E-13  
+    Warning: Norm of correction (root 0) is < 1.0E-13
+   @CI  1:     0   -227.997111948996   0.0000E+00   1.4265E-13 c
+
+   ==> Energetics <==
+
+    SCF energy =         -227.888607971500107
+    Total CI energy =    -227.997111948996150
+
+   ==> FCI root 0 information <==
+
+    FCI Root 0 energy =  -227.997111948996150
+
+   The 20 most important determinants:
+
+    *   1    0.912523  (    4,    4)  1B2gX 1B3gX 1B1uX 
+    *   2   -0.177001  (   15,   15)  1B3gX 1B1uX 1AuX 
+    *   3   -0.176966  (   17,   17)  1B2gX 1B1uX 2B1uX 
+    *   4   -0.118060  (   10,   11)  1B2gA 1B3gB 1B1uX 1AuA 2B1uB 
+    *   5   -0.118060  (   11,   10)  1B2gB 1B3gA 1B1uX 1AuB 2B1uA 
+    *   6   -0.083989  (    4,    9)  1B2gA 1B3gA 1B1uX 1AuB 2B1uB 
+    *   7   -0.083989  (    9,    4)  1B2gB 1B3gB 1B1uX 1AuA 2B1uA 
+    *   8    0.079549  (    0,    1)  1B2gB 1B3gX 1B1uA 2B3gA 1AuB 
+    *   9    0.079549  (    1,    0)  1B2gA 1B3gX 1B1uB 2B3gB 1AuA 
+    *  10    0.079545  (    5,    7)  1B2gX 1B3gB 1B1uA 2B3gA 2B1uB 
+    *  11    0.079545  (    7,    5)  1B2gX 1B3gA 1B1uB 2B3gB 2B1uA 
+    *  12    0.057216  (   14,   17)  1B2gX 1B3gA 1B1uB 2B3gA 2B1uB 
+    *  13    0.057216  (   17,   14)  1B2gX 1B3gB 1B1uA 2B3gB 2B1uA 
+    *  14    0.057216  (   14,   15)  1B2gA 1B3gX 1B1uB 2B3gA 1AuB 
+    *  15    0.057216  (   15,   14)  1B2gB 1B3gX 1B1uA 2B3gB 1AuA 
+    *  16   -0.049742  (   14,   14)  1B2gX 1B3gX 2B3gX 
+    *  17   -0.044961  (    7,    7)  1B2gX 1B3gX 2B1uX 
+    *  18   -0.044956  (    1,    1)  1B2gX 1B3gX 1AuX 
+    *  19    0.042285  (    9,    9)  1B1uX 1AuX 2B1uX 
+    *  20   -0.040461  (    5,    5)  1B2gX 1B1uX 2B3gX 
+
+		 "A good bug is a dead bug" 
+
+			 - Starship Troopers
+
+		 "I didn't write FORTRAN.  That's the problem."
+
+			 - Edward Valeev
